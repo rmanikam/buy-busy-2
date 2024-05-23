@@ -1,0 +1,80 @@
+.navContainer {
+  display: flex;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 15px 20px;
+}
+.projectTitleLogo {
+  margin-left: 31px;
+}
+
+.signIn {
+  margin-left: 100px;
+  margin-top: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home {
+  display: flex;
+  margin-top: 1px;
+  margin-left: 862px;
+  justify-content: space-between;
+  align-items: center;
+}
+.homeLogo {
+  width: 30px;
+  height: 30px;
+  margin-right: 14px;
+}
+
+.signInLogo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.orders {
+  display: flex;
+  margin-top: 1px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 21px;
+  width: 20px;
+}
+.orders h4 {
+  width: 96px;
+}
+
+.orderLogo {
+  width: 30px;
+  height: 30px;
+  margin-right: 12px;
+}
+
+.cart {
+  display: flex;
+  margin-top: 1px;
+  margin-left: 116px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cartLogo {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.logout {
+  display: flex;
+  margin-top: 1px;
+  margin-left: 28px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoutLogo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}

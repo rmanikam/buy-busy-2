@@ -1,0 +1,111 @@
+.outerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 20px;
+  padding: 50px;
+  align-items: center;
+}
+
+.innerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 2px 8px 0 rgba(64, 77, 148, 0.4);
+  margin-bottom: 73px;
+  margin-right: 10px;
+  height: 430px;
+  width: 348px;
+  border-radius: 10px;
+}
+
+.imageContainer {
+  margin-top: 34px;
+}
+.image {
+  width: 200px;
+  height: 180px;
+}
+.titleContainer {
+  margin-top: -3px;
+  height: 161px;
+  padding: 0 5px;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 19px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.priceContainer {
+  margin-top: -58px;
+  margin-left: -21px;
+}
+.cart_btn {
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  height: 33px;
+  background: #f14444;
+  border: 1px solid red;
+  color: #fff;
+  width: 100%;
+  font-size: 20px;
+}
+
+.increase {
+  width: 30px;
+  height: 30px;
+}
+
+.decrease {
+  width: 30px;
+  height: 30px;
+}
+
+.buttons {
+  display: flex;
+  margin-top: -44px;
+  margin-left: 186px;
+}
+
+.increaseButton {
+  margin-right: 10px;
+}
+.quantityValue {
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: -16px;
+}
+
+.cartContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.purchaseContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #f1f1f1;
+  border-radius: 10px;
+  padding: 32px;
+  position: sticky;
+  top: 30%;
+  margin-left: 31px;
+}
+
+.purchaseButton {
+  background: #7064e5;
+  border: 1px solid #7064e5;
+  color: white;
+  font-size: 20px;
+  border-radius: 6px;
+}

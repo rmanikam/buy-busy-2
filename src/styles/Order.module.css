@@ -1,0 +1,28 @@
+.outerContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.orderDate {
+  color: #224957;
+  font-size: 25px;
+  font-weight: 700;
+}
+.outerContainer table {
+  border: 1px solid black;
+  /* position: relative; */
+  width: 50%;
+}
+
+.outerContainer table tr {
+  background-color: #d9d9d936;
+}
+.outerContainer table th,
+td {
+  height: 10px;
+  padding: 10px;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  align-items: start;
+}

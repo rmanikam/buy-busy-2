@@ -1,0 +1,108 @@
+.outerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 20px;
+  padding: 50px;
+  align-items: center;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.inputContainer input {
+  width: 350px;
+  height: 42px;
+  border: 1px solid #7064e5;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.filterComponent {
+  background: #f0f0fc;
+  width: 130px;
+  padding: 41px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -1px;
+  left: -43px;
+}
+
+.filterContainer {
+  margin-top: -52px;
+  margin-bottom: -34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filterContainer h1 {
+  font-size: 20px;
+  color: #224957;
+  font-weight: 700;
+}
+
+.priceContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -53px;
+}
+.input {
+  margin-top: 36px;
+  margin-bottom: 80px;
+}
+.input h4 {
+  width: 157px;
+  height: 6px;
+}
+.categoryContainer {
+  margin-top: -92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.categoryContainer h1 {
+  font-size: 20px;
+  color: #224957;
+  font-weight: 700;
+}
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 150px;
+}
+
+.menClothing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: -24px;
+}
+
+.womanClothing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.jewelery {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: -70px;
+}
+.electronics {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: -56px;
+}

@@ -1,0 +1,69 @@
+.outerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title {
+  width: 223px;
+  padding: 20px;
+  margin: -18px -41px;
+}
+
+.title h3 {
+  font-size: 49px;
+  margin-left: 24px;
+  font-weight: 900;
+  color: #224957;
+}
+
+.email {
+  width: 172px;
+  height: 38px;
+  margin-bottom: 20px;
+}
+.email input {
+  width: 237px;
+  height: 21px;
+  padding: 10px;
+  border-radius: 14px;
+  border: 1px solid #7064e5;
+  background: #f4f6f8;
+  font-size: 20px;
+  font-weight: 100;
+}
+.password {
+  width: 172px;
+  height: 38px;
+  margin-bottom: 20px;
+}
+.password input {
+  width: 237px;
+  height: 21px;
+  padding: 10px;
+  border-radius: 14px;
+  border: 1px solid #7064e5;
+  background: #f4f6f8;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.buttonContainer {
+  width: 256px;
+  margin-left: 1px;
+}
+
+.buttonContainer button {
+  width: 254px;
+  height: 37px;
+  padding: 3px;
+  background: #7064e5;
+  border: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+h4 {
+  color: #224957;
+}
